@@ -1,73 +1,64 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Todo Manager
 
-Currently, two official plugins are available:
+Simple overview of use/purpose.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Description
 
-## React Compiler
+An in-depth paragraph about your project and overview of use.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
 
-## Expanding the ESLint configuration
+### Dependencies
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
+* ex. Windows 10
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Installing
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+* How/where to download your program
+* Any modifications needed to be made to files/folders
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Executing program
+
+* How to run the program
+* Step-by-step bullets
+```
+code blocks for commands
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Help
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Any advise for common problems or issues.
 ```
+command to run if program contains helper info
+```
+
+## Authors
+
+Contributors names and contact info
+
+ex. Dominique Pizzie  
+ex. [@DomPizzie](https://twitter.com/dompizzie)
+
+## Version History
+
+* 0.2
+    * Various bug fixes and optimizations
+    * See [commit change]() or See [release history]()
+* 0.1
+    * Initial Release
+
+## License
+
+This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+
+## Acknowledgments
+
+Inspiration, code snippets, etc.
+* [awesome-readme](https://github.com/matiassingers/awesome-readme)
+* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
+* [dbader](https://github.com/dbader/readme-template)
+* [zenorocha](https://gist.github.com/zenorocha/4526327)
+* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
