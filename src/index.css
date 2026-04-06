@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+@layer components {
+  .sideBarWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0 0 0;
+  }
+}
+
+@layer base {
+  a {
+    cursor: pointer;
+  }
+}

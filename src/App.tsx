@@ -4,16 +4,17 @@ import {
   SignedOut,
   UserButton,
 } from "@clerk/clerk-react";
+import Header from "./components/Header";
+import SideBar from "./components/SideBar";
 
 function App() {
   return (
-    <div className="flex items-center justify-center h-screen">
-      <SignedOut>
-        <SignInButton />
-      </SignedOut>
-      <SignedIn>
-        <UserButton />
-      </SignedIn>
+    <div>
+      <Header />
+      <main>
+        <SideBar />
+        <div></div>
+      </main>
     </div>
   );
 }
