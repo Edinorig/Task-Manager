@@ -1,21 +1,11 @@
-import {
-  SignInButton,
-  SignedIn,
-  SignedOut,
-  UserButton,
-} from "@clerk/clerk-react";
-import Header from "./components/Header";
-import SideBar from "./components/SideBar";
+import { Routes, Route } from "react-router";
+import Inbox from "./components/Pages/Inbox";
 
 function App() {
   return (
-    <div>
-      <Header />
-      <main>
-        <SideBar />
-        <div></div>
-      </main>
-    </div>
+    <Routes>
+      <Route path="/" element={<Inbox />} />
+    </Routes>
   );
 }
 

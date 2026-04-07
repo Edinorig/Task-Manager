@@ -4,7 +4,7 @@ import archivesIcon from "../assets/icons/archivesIcon.svg";
 
 function SideBar() {
   return (
-    <aside className="w-22 h-screen bg-[#F3F3F4] border-r-4 border-r-[#C6C6C6]/10">
+    <aside className="w-22 h-[88vh] bg-[#F3F3F4] border-r-4 border-r-[#C6C6C6]/10">
       <nav>
         <ul className="flex flex-col pt-8">
           <li className="sideBarWrapper">
